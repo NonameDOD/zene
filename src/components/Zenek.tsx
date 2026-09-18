@@ -1,5 +1,6 @@
 import {type ZeneTipus} from "../adat"
 import Zene from "./Zene"
+import './Zenek.css'
 interface ZeneListaProps {
     lista : ZeneTipus[]
 }

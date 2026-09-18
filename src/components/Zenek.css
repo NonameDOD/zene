@@ -1,0 +1,24 @@
+.zenek {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: stretch;
+    padding: 1rem;
+}
+
+.zenek > * {
+    flex: 1 1 250px; /* Responsive sizing: shrinks/grows, min-width 250px */
+    max-width: 350px;
+    background: #00d9ff;
+    border-radius: 12px;
+    padding: 1.25rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Optional hover effect */
+.zenek > *:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}

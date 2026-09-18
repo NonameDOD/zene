@@ -10,8 +10,11 @@ function App() {
         <h1>Hurrá react</h1>
       </header>
       <article>
+        <div className="zenek">
+           <Zenek lista={ZENELISTA}/>
+        </div>
         {/* ide kerül a zene */}
-         <Zenek lista={ZENELISTA}/>
+        
       </article>
       <footer>
         <p>Fóti Dávid Bálint</p>
